@@ -6,18 +6,22 @@ int main()
 {
 	int i = 0;
 
+	printf("----------------------------------------\n");
+	printf("|");
 	while (1) {
 		if (i >= 100) {
 			break;
 		}
 		printf("%3d\t", i + 1);
 		if (i % 5 == 4) {
-			printf("\n");
+			printf("|\n|");
 		}
 		//printf("hello\n");
 
 		i++;
 	}
+	printf("----------------------------------------\n");
+
 
 	i = 0;
 	printf("\n");
