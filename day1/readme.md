@@ -17,3 +17,5 @@
  - iterative statement
  - for & while
  - infinite loop
+ - continue & break
+ - star print
