@@ -1,1 +1,1 @@
-## this is the first class of the NGB c lecture
+## this dir contain 'the first class of the NGB c lecture'
