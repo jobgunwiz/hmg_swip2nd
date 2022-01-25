@@ -45,6 +45,34 @@ int main ()
 	//
 	printf("\n");
 
+	//targetting
+	double target1 = 1.2345;
+	double target2 = 6.789;
+	double *pDouble = &target1;
+	*pDouble = 999.1234;
+
+	pDouble = &target2;
+	*pDouble = 123.4567;
+
+	//pointer change
+	char* pc;
+	int* pn;
+	double* pd;
+
+	char chr_v = 'a';
+	int int_v = 0;
+	double dbl_v = 0.0;
+
+	pc = &chr_v;
+	pn = &int_v;
+	pd = &dbl_v;
+
+	*pc = 'b';
+	*pn = 10;
+	*pd = 999.1234;
+
+	printf("%c %d %lf\n", chr_v, int_v, dbl_v);
+
 	return 0;
 }
 
