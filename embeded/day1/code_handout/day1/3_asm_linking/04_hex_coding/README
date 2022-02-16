@@ -1,0 +1,56 @@
+1. Build (compile, asm, link)
+--------------
+  Enter the following command, 
+
+    make all
+
+2. Disassembling
+--------------
+  Enter the following command, 
+
+    make dump 
+
+  See the foo_dis.s 
+
+3. Modify foo executable directly by editing hex code
+--------------
+  Copy foo into new foo2
+   
+    cp foo foo2
+
+  then open foo2
+   
+    vi foo2
+
+  Enter the following
+    :%!xxd
+
+  Then, you see the hex edit mode
+    enter the following
+    /e825
+
+    move cursor under 25, then enter 'x' twice to delete 25
+ 
+  Then enter 'i'
+    then write 42 
+
+  
+  Enter the following
+    :%!xxd -r
+
+
+  Enter the following
+    :wq
+    
+ 
+4. Run SW on CPU
+--------------
+  Enter the following command
+
+    ./foo2
+
+
+
+
+
+

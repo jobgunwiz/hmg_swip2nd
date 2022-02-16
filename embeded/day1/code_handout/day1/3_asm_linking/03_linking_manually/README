@@ -1,0 +1,41 @@
+1. Build (compile, asm, link)
+--------------
+  Enter the following command, 
+
+    make all
+
+  Then, see error message
+  Think about the reason why ?
+
+2. Analyze source code
+--------------
+  Enter the following command, 
+    gedit foo.s
+
+  In this file, replace 'increment' with 'decrement'
+
+3. Ru-build again
+--------------
+    make all
+
+
+4. Run SW on CPU
+--------------
+  Enter the following command
+
+    ./foo
+
+5. Trace CPU with debugger
+  Enter the following command
+
+    make gdb
+
+  enter the following sequentially
+    break main
+    run
+    si or ni
+
+
+
+
+

@@ -1,0 +1,45 @@
+1. Compile
+--------------
+  Enter the following command, 
+
+    make compile
+
+  Then, see the generated file 'foo.s' and 'increment.s'
+
+2. Assembling
+--------------
+  Enter the following command, 
+
+    make asm 
+
+  Then, see the generated file 'foo.o' and 'increment.o'
+
+
+3. Linking
+--------------
+  Enter the following command, 
+
+    make link
+
+  Then, see the generated file 'foo'
+
+4. Run SW on CPU
+--------------
+  Enter the following command
+
+    ./foo
+
+5. Trace CPU with debugger
+  Enter the following command
+
+    make gdb
+
+  enter the following sequentially
+    break main
+    run
+    si or ni
+
+
+
+
+
