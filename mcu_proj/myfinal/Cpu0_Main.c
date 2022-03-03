@@ -123,6 +123,7 @@ void ERU0_ISR2(void)
     }
     else{
         red_t_switch = 1;
+        blue_t_switch = 0;
     }
 }
 
@@ -135,5 +136,6 @@ void ERU0_ISR3(void)
     }
     else{
         blue_t_switch = 1;
+        red_t_switch = 0;
     }
 }
